@@ -14,16 +14,25 @@ th {
     background-color: #f2f2f2;
     font-weight: bold;
 }
+
 body {
     background-image: url('./GVQNjy1boAA124Z.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin: 1;
-    display: flex;
+    margin: 0;
     justify-content: center;
     align-items: center;
 }
-body.box{
-    background-color: #87dac6a9;
+
+h1 {
+    background-color: #35b7df75;
+    backdrop-filter: blur(20px);
 }
+
+section.main {
+    background-color: #35b7df75;
+    backdrop-filter: blur(20px);
+}
+/*note: fk that ai, use section to add backgrond in every p tag
+try see other guys work*/
