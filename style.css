@@ -23,16 +23,22 @@ body {
     margin: 0;
     justify-content: center;
     align-items: center;
+    padding: 2.5em;
 }
 
 h1 {
     background-color: #35b7df75;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 section.main {
     background-color: #35b7df75;
     backdrop-filter: blur(20px);
+}
+
+footer{
+    background-color: rgba(240, 248, 255, 0.671);
+    backdrop-filter: blur(10px);
 }
 /*note: fk that ai, use section to add backgrond in every p tag
 try see other guys work*/
