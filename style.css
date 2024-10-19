@@ -1,20 +1,3 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-th, td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-
 body {
     background-image: url('./GVQNjy1boAA124Z.jpg');
     background-size: cover;
@@ -36,9 +19,37 @@ section.main {
     backdrop-filter: blur(20px);
 }
 
-footer{
+footer {
     background-color: rgba(240, 248, 255, 0.671);
     backdrop-filter: blur(10px);
 }
 /*note: fk that ai, use section to add backgrond in every p tag
 try see other guys work*/
+
+img.evergreen-pic {
+    width: 40vw;
+    max-width: 80%;
+    max-height: auto;
+}
+
+.evergreen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.evergreen p {
+    width: 100%;
+}
+
+section.maimai {
+    background-color: #35b7df75;
+    backdrop-filter: blur(20px);
+}
+
+div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
