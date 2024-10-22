@@ -14,7 +14,7 @@ h1 {
     backdrop-filter: blur(10px);
 }
 
-section.main {
+section {
     background-color: #35b7df75;
     backdrop-filter: blur(20px);
 }
@@ -43,12 +43,7 @@ img.evergreen-pic {
     width: 100%;
 }
 
-section.maimai {
-    background-color: #35b7df75;
-    backdrop-filter: blur(20px);
-}
-
-div.text{
+div.text {
     display: flex;
     flex-direction: column;
     align-items: center;
