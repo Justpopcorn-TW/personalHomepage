@@ -27,24 +27,25 @@ footer {
 try see other guys work*/
 
 img.evergreen-pic {
-    width: 40vw;
-    max-width: 80%;
+    width: 30vw;
+    max-width: 60%;
     max-height: auto;
 }
 
 .evergreen {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2vh;
 }
 
 .evergreen p {
-    width: 100%;
+    width: auto;
+    text-align: left;
 }
 
 div.text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
