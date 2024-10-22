@@ -20,7 +20,7 @@ section {
 }
 
 footer {
-    background-color: rgba(240, 248, 255, 0.671);
+    background-color: rgba(240, 248, 255, 0.448);
     backdrop-filter: blur(10px);
 }
 /*note: fk that ai, use section to add backgrond in every p tag
