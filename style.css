@@ -27,20 +27,17 @@ footer {
 /*note: fk that ai, use section to add backgrond in every p tag
 try see other guys work*/
 
-img.evergreen-pic {
+img {
     width: 30vw;
     max-width: 80%;
     object-fit: contain;
 }
 
-.evergreen {
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: stretch;
     gap: 2vh;
-}
-
-.evergreen p {
     width: auto;
     text-align: left;
 }
